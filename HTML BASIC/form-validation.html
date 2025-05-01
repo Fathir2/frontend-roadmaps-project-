@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Form-Validation" content="width=device-width, initial-scale=1.0">
+    <title>Form-Validation</title>
+    <style>
+        h1 {
+            color: #333;
+            font-size: 2em;
+            text-align: center;
+            margin-top: 20px;
+
+        }
+
+        h2 {
+            color: #555;
+            font-size: 1.5em;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        p {
+            color: #666;
+            font-size: 1em;
+            text-align: center;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px auto;
+            max-width: 600px; 
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        nav ul li a:hover {
+            color: brown;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        label {
+            display: block;
+            margin-bottom: px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Form Validation</h1>
+        <p>Form validation is the process of ensuring that user input meets certain criteria before it is processed or submitted. This is important for maintaining data integrity and providing a good user experience.</p>
+        <nav>
+            <ul>
+                <li><a href="form-validation.html">Form Validation</a></li>
+                <li><a href="semantic.html">Semantic HTML</a></li>
+                <li><a href="halaman.html">Halaman</a></li>
+                <li><a href="halaman2.html">Halaman 2</a></li>
+                <li><a href="halaman3.html">Halaman 3</a></li>
+            </ul>
+        </nav>
+        <img src="https://via.placeholder.com/200" alt="Placeholder Image">
+    </header>
+    <main>
+        <h2>My Form</h2>
+        <form action="">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <input type="submit" value="Submit">
+            </label>
+        </form>
+    </main>
+</body>
+</html>
